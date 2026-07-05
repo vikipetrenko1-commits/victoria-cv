@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>ויקטוריה פטרנקו - פרופיל מקצועי</title>
+    <style>
+        :root { --primary: #2563eb; --secondary: #f8fafc; --accent: #6366f1; }
+        body { 
+            font-family: 'Segoe UI', Arial, sans-serif; 
+            background: linear-gradient(135deg, #e0e7ff 0%, #ede9fe 100%); 
+            min-height: 100vh; margin: 0; padding: 20px; color: #1e293b; 
+        }
+        .container { max-width: 700px; margin: 0 auto; }
+        h1 { color: #1e3a8a; text-align: center; margin-top: 0; }
+        .contact { text-align: center; margin-bottom: 30px; font-weight: 600; }
+        details { 
+            background: white; margin-bottom: 15px; padding: 20px; border-radius: 15px; 
+            box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1); transition: 0.3s;
+        }
+        details:hover { transform: scale(1.02); }
+        summary { 
+            font-weight: bold; font-size: 1.3em; color: var(--primary); 
+            cursor: pointer; outline: none; display: flex; justify-content: space-between; 
+        }
+        summary::-webkit-details-marker { display: none; }
+        summary::after { content: '✨'; }
+        ul { margin-top: 15px; padding-right: 20px; }
+        li { margin-bottom: 8px; }
+        .job-header { display: flex; justify-content: space-between; font-weight: bold; margin-top: 15px; color: var(--accent); }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>ויקטוריה פטרנקו</h1>
+    <div class="contact">054-4357874 | <a href="mailto:vikipetrenko1@gmail.com" style="color:var(--primary)">שלחי לי מייל</a></div>
+
+    <details open>
+        <summary>תמצית מקצועית</summary>
+        <p>סטודנטית לפרסום ושיווק, מומחית תפעול ולוגיסטיקה עם תשוקה לעולם הכנסים והאירועים.</p>
+    </details>
+
+    <details>
+        <summary>ניסיון תעסוקתי</summary>
+        <div class="job-header"><span>ניהול אדמיניסטרטיבי | פרילנסר</span><span>2024–כיום</span></div>
+        <ul><li>עבודה עצמאית וניהול זמן בסביבה דינמית.</li></ul>
+        <div class="job-header"><span>רפרנטית תפעול | ים טיים שיווק</span><span>2021–2024</span></div>
+        <ul><li>ניהול לוגיסטיקה, B2B וניהול אתרי E-commerce.</li></ul>
+        <div class="job-header"><span>זכיינית ומנהלת | העין השלישית</span><span>2018–2020</span></div>
+        <ul><li>ניהול תקציב, צוותים ומלאי בסביבה תחרותית.</li></ul>
+    </details>
+
+    <details>
+        <summary>השכלה</summary>
+        <ul><li><strong>תואר ראשון בפרסום ושיווק</strong>, אונו.</li><li>בגרות חלקית במגמת תיירות.</li></ul>
+    </details>
+
+    <details>
+        <summary>עיצוב, מדיה ו-AI</summary>
+        <p>Canva, CapCut, PhotoPea, Gamma + כלי AI (ChatGPT, Claude).</p>
+    </details>
+</div>
+
+</body>
+</html>
